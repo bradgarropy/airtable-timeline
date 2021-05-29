@@ -1,0 +1,8 @@
+.grid-line {
+    border-left: 1px solid black;
+    z-index: -1;
+}
+
+.grid-line:last-of-type {
+    border-right: 1px solid black;
+}

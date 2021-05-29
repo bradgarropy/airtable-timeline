@@ -1,0 +1,11 @@
+.timeline {
+    --primary: hsl(344.5, 93.6%, 57.1%);
+    --primaryDark: hsl(344.5, 93.6%, 43%);
+    --primaryDarker: hsl(344.5, 93.6%, 37%);
+    --gray: #bbbbbb;
+    --grayDark: #999999;
+
+    display: grid;
+    row-gap: 1rem;
+    position: relative;
+}

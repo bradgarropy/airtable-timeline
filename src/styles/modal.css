@@ -1,0 +1,27 @@
+.modal {
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+}
+
+.modal-actions {
+    justify-self: end;
+    padding: 0.75rem 0.5rem;
+}
+
+.modal-action {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 0rem 2rem 2rem 2rem;
+}
