@@ -1,8 +1,10 @@
 # 🅰 Airtable Timeline
 
-[![airtable timeline][thumbnail]][video]
-
 _This was a great interview question, it was both fun and challenging! I wrote this timeline with no libraries except [react][react] and [date-fns][date-fns]. I used my personal [prettier][prettier] and [eslint][eslint] configurations._
+
+[![netlify][netlify-badge]][netlify-app]
+
+[![airtable timeline][thumbnail]][video]
 
 ## ⏰ Time Spent
 
@@ -46,6 +48,8 @@ Ultimately I based my implementation on the GitHub contribution graph, but made 
 
 While I did use [TypeScript][typescript] to ensure type safety, I didn't get to implementing any real tests. If I had all the time in the world I would start with some basic [Jest][jest] unit and snapshot tests, then progress to [Cypress][cypress] end to end testing, and finally [Storybook][storybook] and [Chromatic][chromatic] for component level visual testing.
 
+[netlify-app]: https://app.netlify.com/sites/airtable-timeline/deploys
+[netlify-badge]: https://img.shields.io/netlify/e68e21c5-b998-4387-a110-9badea0d27d9?style=flat-square
 [thumbnail]: images/thumbnail.png
 [video]: https://youtu.be/d6oh5qrw5bE
 [react]: https://reactjs.org
