@@ -28,7 +28,7 @@ And finally, while I used a few css variables, there could be lots of improvemen
 
 ### 🤔 Design Decisions
 
-While considering designing the timline, I looked at a few different sources for inspiration.
+While considering designing the timeline, I looked at a few different sources for inspiration.
 
 -   Gantt charts
 -   GitHub contributions
