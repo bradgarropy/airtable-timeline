@@ -1,4 +1,4 @@
-# Airtable Timeline
+# 🅰 Airtable Timeline
 
 [![airtable timeline][thumbnail]][video]
 
@@ -8,11 +8,11 @@ _This was a great interview question, it was both fun and challenging! I wrote t
 
 I worked on this project for around an hour each night over the past week. So I'd say 4-6 hours.
 
-### 😍 What I Like About It
+## 😍 What I Like About It
 
 I thought my strategy of laying out the timeline events on a `grid` with `grid-column` and `grid-row` was pretty clever, especially the grid lines. The zoom feature works quite well by simply adjusting the `start` and `end` dates of the timeline in response to scroll events. Even though I had limited time to work on this project, I'm happy that I finished basic CRUD functionality for the timeline events.
 
-### 😢 What Could Be Improved
+## 😢 What Could Be Improved
 
 There's so much that can be improved if I had more time!
 
@@ -26,7 +26,7 @@ The data set for this timeline could get very big, and I should improve the perf
 
 And finally, while I used a few css variables, there could be lots of improvements to the css like adding more design tokens.
 
-### 🤔 Design Decisions
+## 🤔 Design Decisions
 
 While considering designing the timeline, I looked at a few different sources for inspiration.
 
@@ -42,7 +42,7 @@ Ultimately I based my implementation on the GitHub contribution graph, but made 
 <img src="images/google.png" width="400px" style="display: block; margin-bottom: 12px;"/>
 <img src="images/outlook.png" width="400px" style="display: block; margin-bottom: 12px;"/>
 
-### 🧪 How I Would Test
+## 🧪 How I Would Test
 
 While I did use [TypeScript][typescript] to ensure type safety, I didn't get to implementing any real tests. If I had all the time in the world I would start with some basic [Jest][jest] unit and snapshot tests, then progress to [Cypress][cypress] end to end testing, and finally [Storybook][storybook] and [Chromatic][chromatic] for component level visual testing.
 
