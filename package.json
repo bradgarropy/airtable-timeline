@@ -1,6 +1,16 @@
 {
     "name": "timeline_assignment",
     "version": "0.1.0",
+    "keywords": [
+        "typescript",
+        "react",
+        "eslint",
+        "prettier",
+        "jest",
+        "interview",
+        "airtable",
+        "timeline"
+    ],
     "private": true,
     "dependencies": {
         "@types/jest": "^26.0.23",
